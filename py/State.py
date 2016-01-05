@@ -40,7 +40,7 @@ class State(Filter.Filter):
                             ND=1 << 28, NE=1 << 29, NH=1 << 30, NJ=1 << 31, NM=1 << 32, NV=1 << 33, NY=1 << 34,
                             OH=1 << 35, OK=1 << 36, OR=1 << 37, PA=1 << 38, RI=1 << 39, SC=1 << 40, SD=1 << 41,
                             TN=1 << 42, TX=1 << 43, UT=1 << 44, VA=1 << 45, VT=1 << 46, WA=1 << 47, WI=1 << 48,
-                            VW=1 << 49, WY=1 << 50, NULL=1 << 51)
+                            WV=1 << 49, WY=1 << 50, NULL=1 << 51)
 
         self.conversion_table = state_bitmap
 
